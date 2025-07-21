@@ -104,12 +104,19 @@
 
 		"uniqueName": "Allied Continent",
 		"uniques": [
-			"When declaring friendship, both parties gain a [25]% boost to great person generation",
-			"[+1 Culture] per [4] population [in all cities]","Enables embarkation for land units <starting from the [Ancient era]>", 
+                    "[+20]% Production when constructing [Melee Water] units [in all cities]",
+                    "[+20]% Production when constructing [Ranged Water] units [in all cities]",
+			    "All newly-trained [relevant] units [in this city] receive the [Supply] promotion <only available after adopting [Maritime Infrastructure]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Logistics] promotion <only available after adopting [Naval Tradition]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Mobility] promotion <only available after adopting [Navigation School]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Sentry] promotion <only available after adopting [Merchant Navy]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Coastal Raider I] promotion <only available after adopting [Treasure Fleets]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Boarding Party I] promotion <only available after adopting [Treasure Fleets]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Targeting I] promotion <only available after adopting [Treasure Fleets]>",
+			    "All newly-trained [relevant] units [in this city] receive the [Bombardment I] promotion <only available after adopting [Treasure Fleets]>","Enables embarkation for land units <starting from the [Ancient era]>", 
 					"Enables [All] units to enter ocean tiles <starting from the [Medieval era]>",
 					"[{Military} {Land}] units gain the [Amphibious] promotion", 
-					"[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
-					"Double quantity of [Whales] produced"
+					"[+100]% Strength <when defending> <when [Embarked]> <for [All] units>"
 		],
 		"spyNames": ["Uzaine", "Andor", "Vassalia", "Bix", "Lear","Ishana","Orta","Ram","Kae","Kelda","Leena","Anne","Andre","Alwyn","Gablog","Kabul","Dembik","Pengtol"],
 
