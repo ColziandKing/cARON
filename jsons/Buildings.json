@@ -1,6 +1,53 @@
 
 [ 
 	{
+        "name": "Edukasa",
+        "replaces": "University",
+        "uniqueTo": "Colziand",
+        "maintenance": 2,
+        "culture": 2,
+	"happiness": 1,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"science": 33},
+        "specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+        "uniques": [
+            "[+2 Science] from [Atoll] tiles [in this city]",
+            "[+1 Science] from [Coast] tiles [in this city]"
+        ],
+        "requiredTech": "Education"
+    },
+	{
+		"name": "Kingdom Hall",
+		"culture": 2,
+		"faith": 1,
+		"cityStrength": 25,
+		"cost": 100,
+		"uniqueTo": "Great Britain",
+		"requiredTech": "Iron Working"
+		"uniques": [
+			"Free Social Policy",
+            "Limited to [2] per Civilization",
+			"Only available <in cities without a [Kingdom Hall]>",
+            "Only available <in cities without a [Palace]>",
+		],
+		"quote": "'Here starts the rule in which it will lead us to the bright future.' - Colziand King" 
+	},
+	{
+		"name": "Stronghold",
+		"uniqueTo": "Fullysia",
+		"replaces": "Barracks",
+		"hurryCostModifier": 35,
+		"science": 1,
+		"maintenance": 5,
+		"uniques": [
+			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Logistics] promotion",
+			"New [Military] units start with [500] XP [in this city]","Destroyed when the city is captured"
+			],
+		"requiredTech": "Bronze Working"
+	},
+	{
 		"name": "Cheese Factory",
 		"uniqueTo": "Inconfidência Mineira",
 		"replaces": "Windmill",
