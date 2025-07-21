@@ -1,0 +1,126 @@
+[	
+    {
+		"name": "Wool",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Chicha",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Cheese",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Relic",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Mot",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Soma",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Rum",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Muiraquitã",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Maple Syrup",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Yaupon Tea",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Sea Cucumber",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Bush Bread",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Ware",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Mbari",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Terracotta Sculpture",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Pufferfish",
+		"uniques":["Not shown on world screen <without [Pufferfish]>"],
+		"resourceType": "Strategic"
+	},
+    {
+		"name": "Vanilla",
+		"resourceType": "Luxury"
+	},
+    {
+		"name": "Tea",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Ochre",
+		"resourceType": "Luxury"
+	},
+    {
+		"name": "Uro",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Possum Skin Cloak",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Bison",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Generated on every [15] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Nomad Manpower",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Caravan",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Desert Nomads",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Goods",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Racism",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Racism]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Reduced Head",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Reduced Head]>","Cannot be traded","Stockpiled"]
+	}
+]

@@ -1,0 +1,80 @@
+[
+{
+"name": "Tortured",
+"innerColor": [33, 33, 30],
+"outerColor": [255, 68, 61],
+"uniques": ["[+1] Movement"]
+},
+{
+"name": "Additional Movement",
+"uniques": ["[+1] Movement"]
+},
+{
+"name": "Cushoon Rocket",
+"uniques": ["[+25]% Strength <when attacking>","[+5]% Strength <vs cities>"]
+},
+{
+"name": "Charged Attack",
+"uniques": ["[+25]% Strength <when attacking>"]
+},
+{
+"name": "Digger",
+"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles> <when attacking>","[+15]% Strength <when fighting in [Friendly Land] tiles> <when attacking>"]
+},
+{
+"name": "Massacre",
+"uniques": ["[+1] Movement","[+15]% Strength <when attacking>","No defensive terrain penalty","May capture killed [Wounded] units <with [5]% chance>"]
+},
+{
+"name": "[The Utes] Ability",
+"uniques": ["No defensive terrain penalty"]
+},
+{
+"name": "[Dragoon] Ability",
+"uniques": ["[+50]% Strength <vs [Lancer] units>"]
+},
+{
+"name": "Coastal Movement",
+"uniques": ["Double movement in [Fresh Water]"]
+},
+{
+"name": "Altitude Training",
+"uniques": ["Double movement in [Hill]","Can pass through impassable tiles"]
+},
+{
+"name": "Capture I",
+"uniques": ["May capture killed [Wounded] units <with [30]% chance>"]
+},
+{
+"name": "Capture II",
+"uniques": ["May capture killed [Wounded] units <with [60]% chance>"]
+},
+{
+"name": "Skirmish",
+"uniques": ["Can move after attacking"]
+},
+{
+"name": "Sami People",
+"uniques": ["[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>","[+15]% Strength <when fighting in [Forest] tiles> <when attacking>","[+1] Sight"]
+},
+{
+"name": "Mountain Lifestyle",
+"uniques": ["[This Unit] heals [50] HP <upon ending a turn in a [Mountain] tile>","[This Unit] heals [25] HP <upon ending a turn in a [Hill] tile> <for [Tibet] Civilizations>"]
+},
+{
+"name": "[The Palawa] Ability",
+"uniques": ["[This Unit] heals [2] HP <upon ending a turn in a [Pillaged] tile>","No movement cost to pillage"]
+},
+{
+"name": "Ouboutou",
+"uniques": ["[+5]% Strength <vs [Wounded] units>", "[+5]% Strength <vs cities>"]
+},
+{
+"name": "Camel Odor",
+"uniques": ["[+20]% Strength <vs [Mounted] units>"]
+},
+{
+"name": "Magyar Knight",
+"uniques": ["[+25]% Strength <vs [Sword] units>", "[+10]% Strength <vs [Wounded] units>", "[+10]% Strength <vs cities>"]
+}
+]
