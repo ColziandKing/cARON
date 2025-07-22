@@ -133,7 +133,32 @@
 			"Lemuria","Atlantis","Avalonia","Agarthea","Erum","Kitezha","Kumari Kandam","Mu","Shangri-La","Lyonessa",
 			"Quivira","Buyana","Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia","Zealandia","Ravenser Odd","Ferdinandea",
                         "Jordsand","Kerguelen","Beringia","Doggerland","Maui Nui"]	
-			},
+			},	{
+		"name": "Riau-Lingga",
+		"leaderName": "Abdurrahman Muazam Syah",
+		"adjective": ["Riau-Lingga"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [162, 165, 186],
+		"innerColor": [11, 11, 13],
+		"uniqueName": "Tuhfat al-Nafis",
+		"uniques": ["[+1 Science] from all [Faith] buildings","[+1 Culture] from all [Faith] buildings"],
+		"cities": ["Penyengat Inderasakti", "Tanjungpinang", "Senggarang", "Bukit Bestari", "Bintan", "Daik", "Lingga", "Singkep", "Bakung Serumpun", "Senayang"],
+		"spyNames": ["Saki"]
+	},
+
 	{
 	"name": "Nanzhao",
 	"leaderName": "Piluoge",
