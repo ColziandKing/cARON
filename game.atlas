@@ -1,4 +1,72 @@
 
+Gamer.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Catholicism5
+  rotate: false
+  xy: 700, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Fascism5
+  rotate: false
+  xy: 500, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Nazism
+  rotate: false
+  xy: 500, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Uncivism5
+  rotate: false
+  xy: 700, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wave Sail
+  rotate: false
+  xy: 900, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+Hall.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Stronghold1
+  rotate: false
+  xy: 544, 424
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kingdom Hall
+  rotate: false
+  xy: 868, 1612
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Domain Amplitude
+  rotate: false
+  xy: 652, 428
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
 Fan.png
 size: 2048, 2048
 format: RGBA8888
