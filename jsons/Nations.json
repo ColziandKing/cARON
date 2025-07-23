@@ -23,7 +23,10 @@
 		"outerColor": [255,128,0],
 		"innerColor": [255,255,0], 
 		"uniqueName": "Bond and Oath",
-		"uniques": ["[+1 Food] from every [Fresh Water]", 
+		"uniques": [
+            "[+700]% Production when constructing [All] buildings [in coastal cities]",
+            "[+700]% Production when constructing [Ranged Water] units [in coastal cities]", "Starts with []",
+            "[+700]% Production when constructing [Melee Water] units [in coastal cities]", "[Food] from every [Fresh Water]", 
 			"When declaring friendship, both parties gain a [25]% boost to great person generation",
 			"[+1 Culture] per [4] population [in all cities]",
 					"[+15]% Strength <when fighting in [Friendly Land] tiles>",
