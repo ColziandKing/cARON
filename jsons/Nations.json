@@ -25,7 +25,7 @@
 		"uniqueName": "Bond and Oath",
 		"uniques": [
             "[+700]% Production when constructing [All] buildings [in coastal cities]",
-            "[+700]% Production when constructing [Ranged Water] units [in coastal cities]", "Starts with []",
+            "[+700]% Production when constructing [Ranged Water] units [in coastal cities]", "Starts with [Chemistry]",
             "[+700]% Production when constructing [Melee Water] units [in coastal cities]", "[Food] from every [Fresh Water]", 
 			"When declaring friendship, both parties gain a [25]% boost to great person generation",
 			"[+1 Culture] per [4] population [in all cities]",
@@ -69,6 +69,9 @@
 		"uniqueName": "Fullysianth Song",
 		"uniqueText": "+2 [Food], +1 [Production] for cities settled next to a Mountain \nFree Settler appears upon discovering Calendar \nReceive free strongest available Sword-type or Gunpowder-type units upon building a Courthouse",
 		"uniques": [
+            "[+700]% Production when constructing [All] buildings [in coastal cities]",
+            "[+700]% Production when constructing [Mounted] units [in all cities]", "Starts with [Economics]",
+            "[+700]% Production when constructing [Sword] units [in all cities]",
                     "Quantity of strategic resources produced by the empire +[50]%",
 					"Double quantity of [Marble] produced <hidden from users>",
 					"Double quantity of [Horses] produced <hidden from users>",
@@ -113,6 +116,9 @@
 
 		"uniqueName": "Allied Continent",
 		"uniques": [
+            "[+700]% Production when constructing [All] buildings [in coastal cities]",
+            "[+700]% Production when constructing [Ranged Water] units [in coastal cities]", "Starts with [Navigation]",
+            "[+700]% Production when constructing [Melee Water] units [in coastal cities]",
                     "[+20]% Production when constructing [Melee Water] units [in all cities]",
                     "[+20]% Production when constructing [Ranged Water] units [in all cities]",
 			    "All newly-trained [relevant] units [in this city] receive the [Supply] promotion <after adopting [Maritime Infrastructure]>",
