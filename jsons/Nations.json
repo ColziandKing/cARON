@@ -124,11 +124,11 @@
 
 		"uniqueName": "Allied Continent",
 		"uniques": [
-            "[+700]% Production when constructing [All] buildings [in coastal cities]",
-            "[+700]% Production when constructing [Ranged Water] units [in coastal cities]", "Starts with [Navigation]",
-            "[+700]% Production when constructing [Melee Water] units [in coastal cities]",
-                    "[+700]% Production when constructing [Scout] units [in coastal cities]",
-                    "[+700]% Production when constructing [Submarine] units [in coastal cities]",
+            "[+700]% Production when constructing [All] buildings [in all coastal cities]",
+            "[+700]% Production when constructing [Ranged Water] units [in all coastal cities]", "Starts with [Navigation]",
+            "[+700]% Production when constructing [Melee Water] units [in all coastal cities]",
+                    "[+700]% Production when constructing [Scout] units [in all coastal cities]",
+                    "[+700]% Production when constructing [Submarine] units [in all coastal cities]",
 			    "All newly-trained [relevant] units [in this city] receive the [Supply] promotion <after adopting [Maritime Infrastructure]>",
 			    "All newly-trained [relevant] units [in this city] receive the [Logistics] promotion <after adopting [Naval Tradition]>",
 			    "All newly-trained [relevant] units [in this city] receive the [Mobility] promotion <after adopting [Navigation School]>",
