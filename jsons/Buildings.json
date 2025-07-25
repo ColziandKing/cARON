@@ -4,11 +4,12 @@
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Governor's Mansion",
-        "culture": 2,
-        "faith": 2,
-        "happiness": 2,
+        "culture": 1,
+        "faith": 1,
+        "happiness": 1,
         "hurryCostModifier": 50,
         "uniques": [
+            "[+2] population [in this city]",
             "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
