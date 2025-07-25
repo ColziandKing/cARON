@@ -7,9 +7,9 @@
         "culture": 1,
         "faith": 1,
         "happiness": 1,
-        "hurryCostModifier": 50,
         "uniques": [
-            "[+2] population [in this city]","Unsellable",
+		"Unsellable","Unbuildable",
+            "[+2] population [in this city]",
             "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
