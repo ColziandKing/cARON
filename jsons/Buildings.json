@@ -9,7 +9,7 @@
         "happiness": 1,
         "hurryCostModifier": 50,
         "uniques": [
-            "[+2] population [in this city]",
+            "[+2] population [in this city]","Unsellable",
             "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
