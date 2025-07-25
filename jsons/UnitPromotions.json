@@ -1,4 +1,12 @@
 [
+    {
+        "name": "Foreign Land Bonus", //only for Pracinha and Crusader and subsequent upgrades
+        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+    },
+    {
+        "name": "Can Enter Rival Territory", //only for Crusader and subsequent upgrades
+        "uniques": ["May enter foreign tiles without open borders"]
+    },
 {
 "name": "Tortured",
 "innerColor": [33, 33, 30],
