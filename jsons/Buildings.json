@@ -10,8 +10,6 @@
         "uniques": [
 		"Unsellable","Unbuildable",
             "[+2] population [in this city]",
-            "Removes extra unhappiness from annexed cities",
-            "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
     },
