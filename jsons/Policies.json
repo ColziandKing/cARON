@@ -1,4 +1,99 @@
 [
+	{
+		"name": "Piety",
+		"era": "Ancient era",
+		"priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+		},
+		"uniques": [
+			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
+			"[+50]% Production when constructing [Temple] buildings [in all cities]",
+		 "Adopt [Organized Religion]", 
+	                "Only available <before the [Industrial era]>",
+			"Only available <when religion is enabled>"
+		],
+		"policies": [
+			{
+				"name": "Organized Religion",
+				"uniques": [
+					"[+1 Faith] from every [Shrine]",
+					"[+1 Faith] from every [Temple]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mandate Of Heaven",
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%" // TODO: Make this not applicable to Great People
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Theocracy",
+				"uniques": [
+					"[+25]% [Gold] from every [Temple]",
+					"[+3 Gold] from every [Holy site]"
+				],
+				"requires": [
+					"Organized Religion"
+				],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Reformation",
+				"uniques": [
+					"Gain a free [Enhancer] belief <after founding a religion> <hidden from users>",
+					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
+					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
+				],
+				"requires": [
+					"Religious Tolerance"
+				],
+				"row": 3,
+				"column": 3,
+				"civilopediaText": [
+					{ "text": "Reformation lets you choose the most powerful Beliefs for your Religion." },
+					{ "separator": true },
+					{ "text": "Charitable Missions", "link": "Belief/Charitable Missions" },
+					{ "text": "Evangelism", "link": "Belief/Evangelism" },
+					{ "text": "Heathen Conversion", "link": "Belief/Heathen Conversion" },
+					{ "text": "Jesuit Education", "link": "Belief/Jesuit Education" },
+					{ "text": "Religious Fervor", "link": "Belief/Religious Fervor" },
+					{ "text": "Sacred Sites", "link": "Belief/Sacred Sites" },
+					{ "text": "To the Glory of God", "link": "Belief/To the Glory of God" },
+					{ "text": "Underground Sect", "link": "Belief/Underground Sect" },
+					{ "text": "Unity of the Prophets", "link": "Belief/Unity of the Prophets" }
+				]
+			},
+			{
+				"name": "Religious Tolerance",
+				"uniques": [
+					// TODO: Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion
+					"[-10]% Culture cost of adopting new Policies"
+				],
+				"requires": [
+					"Organized Religion"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Piety Complete",
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%",
+					"[+3 Culture] from every [Holy site]",
+					"Free [Great Prophet] appears"
+				]
+			}
+		]
+	},
     {
         "name": "Voluntarism",
         "era": "Industrial era",
