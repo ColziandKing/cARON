@@ -9,7 +9,7 @@
         "happiness": 1,
         "uniques": [
 		"Unsellable","Unbuildable",
-            "[+2] population [in this city]",
+            "[+2] population [in this city]"
         ],
         "requiredTech": "Mathematics"
     },
