@@ -51,4 +51,19 @@
         "upgradesTo": "Swordsman",
         "attackSound": "nonmetalhit"
     },
+	{
+		"name": "Swiss Guard",
+		"uniqueTo": "The Papal States",
+		"replaces": "Landsknecht",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+35]% Strength <when defending>","Unbuildable","Can be purchased with [Gold] [in all cities]","Can move immediately once bought","[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+
 ]
