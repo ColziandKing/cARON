@@ -1,6 +1,37 @@
 
 [ 
     {
+        "name": "Art Hall",
+        "culture": 2,
+        "faith": 1,
+        "specialistSlots": {"Artist": 1},
+        "uniques": ["Unbuildable","Unsellable"]
+    },
+    {
+        "name": "Writing Auditorium",
+        "culture": 2,
+        "faith": 1,
+        "specialistSlots": {"Writer": 1},
+        "uniques": ["Unbuildable","Unsellable"]
+    },
+    {
+        "name": "Vocal Chamber",
+        "culture": 2,
+        "faith": 1,
+        "specialistSlots": {"Musician": 1},
+        "uniques": ["Unbuildable","Unsellable"]
+    },
+    {
+        "name": "Fine Art Specialist",
+        "culture": 1,
+        "happiness": 1,
+        "specialistSlots": {"Artist": 1, "Writer": 1,"Musician": 1},
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Governor's Mansion",
@@ -57,5 +88,45 @@
 			"New [Military] units start with [500] XP [in this city]","Destroyed when the city is captured"
 			],
 		"requiredTech": "Bronze Working"
+	},
+    {
+        "name": "Cathedral",
+        "culture": 4,
+	   "faith": 1,
+		"specialistSlots": {"Artist": 1},
+        "uniques": [
+            "Unbuildable","Only available <for [Byzantium] Civilizations>",
+            "Only available <when religion is enabled>",
+        ]
+    },
+    {
+        "name": "Mosque",
+        "culture": 1,
+        "faith": 2,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "Only available <when religion is enabled>",
+        ]
+    },
+    {
+        "name": "Pagoda",
+        "faith": 2,
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unbuildable",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Only available <when religion is enabled>",
+        ]
+    },
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 ]
