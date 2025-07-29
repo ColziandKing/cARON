@@ -1,6 +1,14 @@
 
 [ 
     {
+        "name": "Settler Post",
+        "cost": 100,
+        "hurryCostModifier": 25,
+        "science": 5,
+        "uniques": ["Free [Settler] appears", "Only available <for [City-State] Civilizations>"],
+        "requiredTech": "Horseback Riding"
+    },
+    {
         "name": "Art Hall",
         "culture": 2,
         "faith": 1,
