@@ -89,46 +89,4 @@
 			],
 		"requiredTech": "Bronze Working"
 	},
-    {
-        "name": "Cathedral",
-        "culture": 4,
-	   "faith": 1,
-		"specialistSlots": {"Artist": 1},
-        "uniques": [
-            "Unbuildable","Only available <in cities with a [Christianity, Eastern Orthodoxy, Protestantism] religion>",
-		"Only available <when religion is enabled>",
-        ]
-    },
-    {
-        "name": "Mosque",
-        "culture": 1,
-        "faith": 2,
-        "happiness": 1,
-        "uniques": [
-            "Unbuildable",
-            "Only available <in cities with a [Islam] religion>",
-            "Only available <when religion is enabled>",
-        ]
-    },
-    {
-        "name": "Pagoda",
-        "faith": 2,
-        "culture": 1,
-        "happiness": 1,
-        "uniques": [
-            "Unbuildable",
-            "Only available <in cities with a [Cathedrals] religion>",
-            "[10]% Food is carried over after population increases [in this city]",
-            "Only available <when religion is enabled>",
-        ]
-    },
-	{
-		"name": "Monastery",
-		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
-	},
 ]
