@@ -95,8 +95,8 @@
 	   "faith": 1,
 		"specialistSlots": {"Artist": 1},
         "uniques": [
-            "Unbuildable","Only available <for [Byzantium] Civilizations>",
-            "Only available <when religion is enabled>",
+            "Unbuildable","Only available <in cities with a [Christianity, Eastern Orthodoxy, Protestantism] religion>",
+		"Only available <when religion is enabled>",
         ]
     },
     {
@@ -106,6 +106,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable",
+            "Only available <in cities with a [Islam] religion>",
             "Only available <when religion is enabled>",
         ]
     },
@@ -116,6 +117,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable",
+            "Only available <in cities with a [Cathedrals] religion>",
             "[10]% Food is carried over after population increases [in this city]",
             "Only available <when religion is enabled>",
         ]
