@@ -5,7 +5,7 @@
         "cost": 100,
         "hurryCostModifier": 25,
         "science": 5,
-        "uniques": ["Free [Settler] appears", "Only available <for [City-State] Civilizations>"],
+        "uniques": ["Free [Settler] appears", "Only available <for [City-States] Civilizations>"],
         "requiredTech": "Horseback Riding"
     },
     {
