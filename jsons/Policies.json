@@ -107,6 +107,7 @@
         "uniques": [
             "[+1 Happiness] per [2] population [in all cities]",
 		 "Adopt [Comedic Journalism]", 
+			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
         ],
         "policies": [
             {
@@ -172,7 +173,8 @@
         },
         "uniques": [
             "[+2 Production, +2 Food] per [2] population [in capital]",
-		 "Adopt [Black Bloc]"
+		 "Adopt [Black Bloc]",
+			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
         ],
         "policies": [
             {
