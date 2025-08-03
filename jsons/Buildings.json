@@ -43,8 +43,7 @@
         "name": "Outremer",
         "uniqueTo": "Jerusalem",
         "replaces": "Governor's Mansion",
-        "culture": 1,
-        "faith": 1,
+        "culture": 2,
         "happiness": 1,
         "uniques": [
 		"Unsellable","Unbuildable",
