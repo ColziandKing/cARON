@@ -65,5 +65,48 @@
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 42,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Unbuildable",
+			"[+30]% Strength <when attacking>",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>"
+			// "Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
+		],
+		"promotions": [
+			"Foreign Lands Bonus"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Volunteer Army",
+				"link": "Policy/Volunteer Army"
+			}
+		]
+	},	{
+		"name": "Corsair",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"uniques":["May enter foreign tiles without open borders","[+15]% Strength <when fighting in [Ocean] tiles>",
+			"Unbuildable",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>"]
+		"promotions": ["Coastal Raider I","Boarding Party I","[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+
 
 ]
