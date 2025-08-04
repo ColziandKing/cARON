@@ -189,5 +189,292 @@
 "Ramla",
 "Nablus",
 "Gaza"]
+	},	{
+		"name": "The Golden Horde",
+		"leaderName": "Öz Beg Khan",
+		"adjective": ["The Golden Horde"],
+		"startBias":["Hill"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of north Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [247, 226, 64],
+		"innerColor": [46, 8, 7],
+		"uniqueName": "The Tatar Yoke",
+		"uniques": ["[+5]% Strength <for [Mounted] units>","Allied City-States provide [Production] equal to [+3]% of what they produce for themselves","Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves","Allied City-States provide [Gold] equal to [+25]% of what they produce for themselves"],
+		"cities": ["Sarai Berke","Sarai Batu","Saraichik","Xacitarxan","Bolghar","Sighnaq","Mukhsha","Urgench","Kazan","Ukek"],
+        "spyNames": ["Saki"]
+    },
+	{
+		"name": "Yuan",
+		"leaderName": "Kublai Khan",
+		"adjective": ["Yuan"],
+		"startBias":["Hill"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of north Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [143, 202, 247],
+		"innerColor": [10, 35, 54],
+		"uniqueName": "Mandate Lost",
+		"uniques": ["[+2 Science] per [3] population [in all cities]","Enables conversion of city production to [Science]","Production to [Science] conversion in cities changed by [+20]%"],
+		"cities": ["Khanbaliq","Shangdu","Ganzhou","Wuchang","Kaifeng","Nanchang","Hangzhou","Liaoyang","Karakorum","Xian"],
+        "spyNames": ["Saki"]
+    },
+
+	{
+		"name": "Phoenicia",
+		"leaderName": "Hiram I",
+		"adjective": ["Phoenicia"],
+		"startBias":["Coast","Plains"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [115, 50, 168],
+		"innerColor": [207, 215, 255],
+		"uniqueName": "Mediterranean Colonies",
+		"uniques": ["[+2 Gold] from [Coast] tiles [in all cities]","Gain a free [Seaside Market] [in all cities] <on foreign continents>","Starts with [Sailing]"],
+		"cities": ["Tyre",
+"Sidon",
+"Byblos",
+"Carthage",
+"Arwad",
+"Ugarit",
+"Gadir",
+"Hippo Regius",
+"Kition"],
+		"spyNames": ["Saki"]
 	},
+	{
+		"name": "Jurchen",
+		"leaderName": "Shizong",
+		"adjective": ["Jurchen"],
+		"startBias":["None"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [34, 77, 50],
+		"innerColor": [255, 228, 171],
+		"uniqueName": "Jin Shi",
+		"uniques": ["[+2 Culture] from every [Library]","[+25]% Production when constructing [Archery] units [in all cities]","[+25]% Production when constructing [Mounted] units [in all cities]"],
+		"cities": ["Zhongdu", "Shangjing", "Bianjing", "Caizhou", "Xianping", "Dongjing", "Beijing", "Zhongjing", "Xijing", "Hejian", "Zhending", "Taiyuan", "Daming"],
+		"spyNames": ["Saki"]
+	},
+	{
+		"name": "Romania",
+		"leaderName": "Carol I",
+		"adjective": ["Romania"],
+		"startBias":["Forest"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [23, 33, 31],
+		"innerColor": [255, 155, 74],
+		"uniqueName": "Nihil sine Deo",
+		"uniques": ["[+2 Faith] from all [Culture] buildings"],
+		"cities": ["Bucharest", "Cluj-Napoca", "Iași", "Constanța", "Timișoara", "Brașov", "Craiova", "Galați", "Oradea", "Ploiești", "Brăila", "Arad", "Pitești", "Bacău"],
+		"spyNames": ["Saki"]
+	},
+	{
+		"name": "Canada",
+		"leaderName": "Wilfrid Laurier",
+		"adjective": ["Canada"],
+		"startBias":["Tundra"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 255, 255],
+		"innerColor": [168, 0, 0],
+		"uniqueName": "The Last Best West",
+		"uniques": ["[+2 Food] in cities on [Tundra] tiles","[+1 Food] from [Tundra] tiles [in all cities]","[+1 Production, +2 Gold] from [Deer] tiles [in all cities]"],
+		"cities": ["Ottawa", "Toronto", "Montreal", "Halifax", "Winnipeg", "Vancouver", "Quebec City", "Calgary", "Edmonton", "Mississauga", "Brampton", "Hamilton", "Surrey"],
+		"spyNames": ["Saki"]
+	},
+	{
+		"name": "The Papal States",
+		"leaderName": "Pius IX",
+		"adjective": ["The Papal States"],
+		"startBias":["Grassland"],
+		"preferredVictoryType": "Domination",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [150, 15, 15],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Apostolic See",
+		"uniques": ["[1] free [Great Prophet] units appear","[+1] Movement <for [Missionary] units>","[+1] Movement <for [Inquisitor] units>","[+1] Movement <for [Great Prophet] units>","Provides [1] [Relic] <upon gaining a [Great Prophet] unit>"],
+		"cities": ["Rome", "Benevento", "Pontecorvo", "Ascoli", "Castel Gandolfo", "Avignon", "Ravenna", "Bologna", "Ferrara", "Civitavecchia", "Perugia"],
+		"spyNames": ["Saki"]
+	},
+
+{
+		"name": "Mexico",
+		"leaderName": "Benito Juárez",
+		"adjective": ["Mexico]"],
+		"startBias": ["Marsh"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [230, 200, 129],
+		"innerColor": [31, 105, 15],
+		"uniqueName": "La Reforma",
+		"uniques": ["[+50]% Golden Age length","[-30]% Culture cost of adopting new Policies"],
+		"cities": ["Ciudad de México",
+"Guadalajara",
+"Monterrey",
+"Puebla",
+"Tijuana",
+"León",
+"Ciudad Juárez",
+"Cancún",
+"Mérida",
+"Veracruz",
+"Toluca",
+"Aguascalientes",
+"Morelia",
+"Hermosillo",
+"Saltillo"],
+	},
+{
+		"name": "Thailand",
+		"leaderName": "Rama V",
+		"adjective": ["Thailand]"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [37, 51, 77],
+		"innerColor": [255, 66, 48],
+		"uniqueName": "Southeast Asian Influence",
+		"uniques": ["[+2 Faith] from all [Wat] buildings","[+1 Food] from all [Monument] buildings","[+2 Culture] from all [Wat] buildings","[+1 Food] from all [Wat] buildings"],
+		"cities": ["Bangkok",
+"Chiang Mai",
+"Ayutthaya",
+"Pattaya",
+"Phuket",
+"Sukhothai",
+"Nakhon Ratchasima",
+"Udon Thani",
+"Surat Thani",
+"Chonburi",
+"Lampang",
+"Khon Kaen"],
+	},
+	{
+		"name": "Samoa",
+		"leaderName": "Lauaki Namulauulu Mamoe",
+		"adjective": ["Samoa"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [118, 247, 114],
+		"innerColor": [60, 69, 60],
+		"uniqueName": "Ava Ceremony",
+		"uniques": ["[-20]% Food consumption by specialists [in all cities]","[-25]% Culture cost of adopting new Policies"],
+		"cities": ["Apia","Salelologa","Afega","Afiamalu","Alafua","Alamagoto","Aleipata","Aleisa","Amaile","Amouli","Aopo","Apai","Apolima Tai","Apolima Uta","Asaga","Asau","Auala","A’ufaga","Aele","Elisefou"],
+	},
+
 ]
