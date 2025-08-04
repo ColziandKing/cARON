@@ -1,4 +1,81 @@
 [
+	
+	//Expansion 
+    {
+        "name": "Expansion",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 20,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": [
+                "Comment [+25% Strength vs Barbarians and City-States units]", "[+25]% Strength <vs [Barbarian] units> <hidden from users>", 
+		"[+25]% Strength <vs [City-States]> <hidden from users>",
+		 "Adopt [City Militia]", 					"Unavailable",
+			"[+25]% weight to this choice for AI decisions"
+        ],
+        "policies": [
+            {
+                "name": "City Militia",
+                "uniques": [
+                    "[-50]% maintenance costs <for [Military] units> <in [City center] tiles>", "[+2 Happiness, +1 Production] [in all cities with a garrison]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Colonialism",
+                "uniques": [
+                    "[+1] population [in all cities]",
+                    "[+1 Happiness] [in all cities]",
+                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
+                    "Free [Worker] appears <upon founding a city>",
+			"Gain a free [Harbor] [in this city] <upon founding a city> <on foreign continents>",
+                ],
+                "requires": ["City Militia"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Autarky",
+                "uniques": [
+                    "Quantity of strategic resources produced by the empire +[50]%",
+                    "[+2 Food] [in all cities connected to capital]"
+                ],
+                "requires": ["City Militia"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Relations",
+                "uniques": [
+                    "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Medieval era]>"
+		],
+                "requires": ["Autarky"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "State Logistics",
+                "uniques": [
+                    "[-25]% maintenance on road & railroads", "Improves movement speed on roads"
+                ],
+                "requires": ["Colonialism"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Expansion Complete",
+                "uniques": [
+                 "[-25]% Culture cost of natural border growth [in all cities connected to capital]", "[-25]% Gold cost of acquiring tiles [in all cities connected to capital]"
+                ]
+	    }
+	]
+    },
     {
         "name": "Humor",
         "era": "Industrial era",
