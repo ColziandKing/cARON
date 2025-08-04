@@ -475,6 +475,111 @@
 		"uniqueName": "Ava Ceremony",
 		"uniques": ["[-20]% Food consumption by specialists [in all cities]","[-25]% Culture cost of adopting new Policies"],
 		"cities": ["Apia","Salelologa","Afega","Afiamalu","Alafua","Alamagoto","Aleipata","Aleisa","Amaile","Amouli","Aopo","Apai","Apolima Tai","Apolima Uta","Asaga","Asau","Auala","A’ufaga","Aele","Elisefou"],
+	},{
+		"name": "Buganda",
+		"leaderName": "Mutesa I",
+		"adjective": ["Buganda"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of the Kingdom i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [97, 144, 244],
+		"innerColor": [8, 27, 77],
+		"uniqueName": "Kabaka",
+		"uniques": ["[+1 Food] [in all cities]", "[+1 Food] from every [Plantation]", "[+1 Production] from every [Jungle]", "[+20]% Strength <when fighting in [Jungle] tiles>"],
+		"cities": ["Buikwe", "Bukomansimbi", "Butambala", "Buvuma", "Gomba", "Kalangala", "Kalungu", "Kampala",
+			"Kayunga", "Kyankwanzi", "Luwero"],
 	},
+      {
+		"name": "The Basters",
+		"leaderName": "Hans Diergaardt",
+		"adjective": ["The Basters"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of the Basters i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Adieu... I Must leave.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [133, 85, 77],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Apartheid Outcasts",
+		"uniques": ["[+1 Happiness] from [Pasture] tiles [in all cities]","Can build [Farm] improvements at a [+25]% rate","Can build [Pasture] improvements at a [+30]% rate"],
+		"cities": ["Rehoboth", "Kunene" ,"Omusati", "Oshana", "Ohangwena", "Oshikoto", "Kavango", "Zambezi", "Eongo",
+			"Otjozondjupa",
+			"Omaheke", "Khomas"]
+	},
+	{
+		"name": "The Philippines",
+		"leaderName": "Jose Rizal",
+		"adjective": ["The Philippines"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "You must shatter the vase to spread its perfume, and smite the rock to get the spark.",
+		"attacked": "We do not sleep; we wait for you with fire in our hearts and weapons in our hands. (lit. We are not sleeping; we are waiting for you with a burning heart and an armed fist.",
+		"defeated": "It is finished.",
+		"introduction": "I am Jose Rizal, poet, painter, revolutionary",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [130, 182, 224],
+		"innerColor": [29, 54, 74],
+        "favoredReligion": "Christianity",
+		"uniqueName": "Pearl of the Orient Seas",
+		"uniques": ["[+1 Culture] from every [Coast]","[+2 Faith] [in all cities] <with [1] to [2] neighboring [Coast] tiles>","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
+		"cities": ["Manila","Quezon City","Boracay","Cebú","Puerto Princesa","El Nido","Bohol","Davao","Baguio","Siargao","Corón","Tagaytay","Makati","Taguig","Dumaguete","Bacólod","Puerto Galera","Sagada","Laoag","Zamboanga"]
+	},
+	{
+		"name": "Khmer",
+		"leaderName": "Jayavarman VII",
+		"adjective": ["Khmer"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [242, 206, 153],
+		"innerColor": [133, 46, 0],
+		"uniqueName": "Great Barays of Angkor",
+		"uniques": ["[+1 Faith, +1 Food] from each Trade Route","[+10]% [Culture] [in all cities]","[+10]% [Food] [in all cities]"],
+		"cities": ["Angkor Thom", "Yasodharapura", "Hariharalaya", "Nagara Jayasri", "Rajavihara", "Isvarapura", "Banteay Kdei", "Jayendranagari", "Pre Rup"],
+	},
+
 
 ]
