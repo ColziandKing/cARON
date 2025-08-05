@@ -52,6 +52,26 @@
         "attackSound": "nonmetalhit"
     },
 	{
+		"name": "Landsknecht",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Unbuildable",
+			"[+50]% Strength <vs [Mounted] units>",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>"
+		],
+		"promotions": [
+			"City Plunder",
+			"No movement cost to pillage"
+		],
+		"upgradesTo": "Lancer",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Swiss Guard",
 		"uniqueTo": "The Papal States",
 		"replaces": "Landsknecht",
@@ -70,7 +90,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 42,
-		"cost": 320,
+		"cost": 210,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
