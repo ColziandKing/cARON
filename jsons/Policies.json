@@ -160,8 +160,8 @@
 				"requires": [
 					"Autarky", "Colonialism"
 				],
-				"row": 2,
-				"column": 6
+				"row": 3,
+				"column": 4
 			},
         {
             "name": "State Logistics",
@@ -170,7 +170,7 @@
             ],
             "requires": ["Colonialism"],
             "row": 3,
-            "column": 4
+            "column": 6
         },
         {
             "name": "Expansion Complete",
@@ -451,7 +451,7 @@
 					"Mandate Of Heaven"
 				],
                 "row": 2,
-                "column": 3
+                "column": 5
             },
 			{
 				"name": "Piety Complete",
@@ -965,7 +965,7 @@
                     "[+2 Science] from every [Landmark]"
 				],
 				"requires": [
-					"Flourishing of the Arts"
+					"Flourishing of the Arts", "Cultural Exchange"
 				],
 				"row": 3,
 				"column": 4
@@ -1684,7 +1684,7 @@
 			"Comment [Unique policy to Byzantine civilization]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
 				],
-				"row": 3,
+				"row": 2,
 				"column": 3
 			},
 			{
