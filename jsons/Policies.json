@@ -127,9 +127,7 @@
             "uniques": [
                 "[+1] population [in all cities]",
                 "[+1 Happiness] [in all cities]",
-                "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
                 "Free [Worker] appears <upon founding a city>",
-		"Gain a free [Harbor] [in this city] <upon founding a city> <on foreign continents>",
             ],
             "requires": ["City Militia"],
             "row": 2,
@@ -154,6 +152,17 @@
             "row": 3,
             "column": 2
         },
+			{
+				"name": "Resettlement",
+				"uniques": [
+					"[3] population [in this city] <upon founding a city>",
+				],
+				"requires": [
+					"Autarky", "Colonialism"
+				],
+				"row": 2,
+				"column": 6
+			},
         {
             "name": "State Logistics",
             "uniques": [
@@ -433,6 +442,17 @@
 				"row": 2,
 				"column": 3
 			},
+            {
+                "name": "Monasticism",
+                "uniques": [
+			"Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]",
+		],
+				"requires": [
+					"Mandate Of Heaven"
+				],
+                "row": 2,
+                "column": 3
+            },
 			{
 				"name": "Piety Complete",
 				"uniques": [
@@ -492,7 +512,7 @@
 					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
 				],
 				"requires": [
-					"Scholasticism",
+					"Philantropy",
 					"Consulates"
 				],
 				"row": 2,
@@ -612,6 +632,19 @@
 				],
 				"row": 3,
 				"column": 2
+			},
+			{
+				"name": "Academy of Sciences",
+				"uniques": [
+					"[+1 Happiness] from all [Observatory] buildings",
+					"[+1 Happiness] from all [Public School] buildings",
+					"[+1 Happiness] from all [Research Lab] buildings",
+				],
+				"requires": [
+					"Free Thought"
+				],
+				"row": 3,
+				"column": 4
 			},
 			{
 				"name": "Rationalism Complete",
@@ -906,6 +939,17 @@
 				],
 				"row": 2,
 				"column": 4
+			},
+			{
+				"name": "Creative Expression",
+				"uniques": [
+					"[+1 Culture] from all [Great Work] buildings",
+				],
+				"requires": [
+					"Flourishing of the Arts"
+				],
+				"row": 3,
+				"column": 2
 			},
 			{
 				"name": "Artistic Genius",
@@ -1263,30 +1307,6 @@
 
 			// Level 2
 			{
-				"name": "Academy of Sciences",
-				"uniques": [
-					"[+1 Happiness] from all [Observatory] buildings",
-					"[+1 Happiness] from all [Public School] buildings",
-					"[+1 Happiness] from all [Research Lab] buildings",
-					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
-					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
-				],
-				"row": 2,
-				"column": 2
-			},
-			{
-				"name": "Resettlement",
-				"uniques": [
-					"[3] population [in this city] <upon founding a city>",
-					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
-					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
-				],
-				"row": 2,
-				"column": 6
-			},
-			{
 				"name": "Cultural Revolution",
 				"uniques": [
 					// TODO: +34% Tourism to other Order Civilizations.
@@ -1424,25 +1444,6 @@
 			{ "text": "[Ideology] best for Cultural, Diplomatic, and Science Victories." }
 		],
 		"policies": [
-			// Level 1
-			{
-				"name": "Avant Garde",
-				"uniques": [
-					"[+25]% Great Person generation [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Creative Expression",
-				"uniques": [
-					"[+1 Culture] from all [Great Work] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 3
-			},
 			{
 				"name": "Civil Society",
 				"uniques": [
@@ -1675,16 +1676,17 @@
                 "row": 2,
                 "column": 1
             },
-            {
-                "name": "Monasticism",
-                "uniques": [
-			"Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]",
+			// Level 1
+			{
+				"name": "Avant Garde",
+				"uniques": [
+					"[+25]% Great Person generation [in your cities]",
 			"Comment [Unique policy to Byzantine civilization]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
-		],
-                "row": 2,
-                "column": 3
-            },
+				],
+				"row": 3,
+				"column": 3
+			},
 			{
 				"name": "Planned Economy",
 				"uniques": [
