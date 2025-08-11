@@ -1,44 +1,4 @@
 [
-{
-		"name": "Mexico",
-		"leaderName": "Benito Juárez",
-		"adjective": ["Mexico]"],
-		"startBias": ["Marsh"],
-		"preferredVictoryType":"Diplomatic",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"introduction": "Hello stranger!",
-
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-
-		"tradeRequest": "My friend, does this seem reasonable to you?",
-
-		"outerColor": [230, 200, 129],
-		"innerColor": [31, 105, 15],
-		"uniqueName": "La Reforma",
-		"uniques": ["[+50]% Golden Age length","[-30]% Culture cost of adopting new Policies"],
-		"cities": ["Ciudad de México",
-"Guadalajara",
-"Monterrey",
-"Puebla",
-"Tijuana",
-"León",
-"Ciudad Juárez",
-"Cancún",
-"Mérida",
-"Veracruz",
-"Toluca",
-"Aguascalientes",
-"Morelia",
-"Hermosillo",
-"Saltillo"],
-	},
 
 	{
 		"name": "Colziand",
