@@ -150,7 +150,7 @@
 	],
             "requires": ["Autarky"],
             "row": 3,
-            "column": 2
+            "column": 1
         },
 			{
 				"name": "Resettlement",
@@ -161,7 +161,7 @@
 					"Autarky", "Colonialism"
 				],
 				"row": 3,
-				"column": 4
+				"column": 3
 			},
         {
             "name": "State Logistics",
@@ -170,7 +170,7 @@
             ],
             "requires": ["Colonialism"],
             "row": 3,
-            "column": 6
+            "column": 5
         },
         {
             "name": "Expansion Complete",
