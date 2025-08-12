@@ -144,7 +144,7 @@
             "column": 4
         },
         {
-            "name": "Relations",
+            "name": "Diplomatic Missions",
             "uniques": [
                 "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Medieval era]>"
 	],
@@ -180,6 +180,93 @@
     }
 ]
 },
+    {
+        "name": "Relations",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 10,
+	    "Religious": 0
+        },
+        "uniques": [,
+                    "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+        "policies": [
+			{
+				"name": "United Front",
+				"uniques": [
+					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+					"[-100]% weight to this choice for AI decisions",
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Covert Action",
+				"uniques": [
+					// Spies have double the chance to successfully rig City-State elections
+					"[+100]% spy effectiveness [in City-State cities]",
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Five-Year Plan",
+				"uniques": [
+					"[+2 Production] [in your cities]",
+					"[+1 Production] from [Mine] tiles [in your cities]",
+					"[+1 Production] from [Quarry] tiles [in your cities]",
+				],
+                "requires": ["United Front"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Double Agents",
+				"uniques": [
+					// TODO: Spies have double the chance to capture an enemy spy attempting to steal a technology.
+					"[-50]% enemy spy effectiveness [in your cities]",
+				],
+                "requires": ["Covert Action"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Third Alternative",
+				"uniques": [
+					"[+5 Food, +5 Science] [in capital]",
+					"[+100]% [Horses] resource production",
+					"[+100]% [Iron] resource production",
+					"[+100]% [Coal] resource production",
+					"[+100]% [Oil] resource production",
+					"[+100]% [Aluminum] resource production",
+					"[+100]% [Uranium] resource production",
+				],
+                "requires": ["Five-Year Plan"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Industrial Espionage",
+				"uniques": [
+					// TODO: Spies steal technologies twice as fast.
+					"[+20]% spy effectiveness [in enemy cities]",
+				],
+                "requires": ["Double Agents"],
+				"row": 3,
+				"column": 4
+			},
+            {
+                "name": "Relations Complete",
+                "uniques": [
+                    "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <when espionage is enabled> <hidden from users>", "New spies start with [1] level(s) <when espionage is enabled> <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 15] <when espionage is disabled>", "Comment [Reveal the locations of the cities of the City-States encountered] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [15] <when espionage is disabled> <hidden from users>", "Reveal up to [All] [City center] within a [200] tile radius <when espionage is disabled> <hidden from users>"
+                ]
+            }
+        ]
+    },
 
 	
 	//Liberty
@@ -371,6 +458,8 @@
 		 "Adopt [Theocracy] <hidden from users>",
 		 "Adopt [Religious Tolerance] <hidden from users>",
 		 "Adopt [Reformation] <hidden from users>",
+            "Gain enough Faith for [50]% of a Great Prophet",
+	    "Only available <after founding a Pantheon>",
 	                "Only available <before the [Industrial era]>",
 			"Only available <when religion is enabled>"
 		],
@@ -1035,16 +1124,6 @@
 				"column": 3
 			},
 			{
-				"name": "United Front",
-				"uniques": [
-					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-					"[-100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 5
-			},
-			{
 				"name": "Futurism",
 				"uniques": [
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Writer] unit>",
@@ -1054,16 +1133,6 @@
 				],
 				"row": 1,
 				"column": 7
-			},
-			{
-				"name": "Industrial Espionage",
-				"uniques": [
-					// TODO: Spies steal technologies twice as fast.
-					"[+20]% spy effectiveness [in enemy cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 9
 			},
 			{
 				"name": "Fortified Borders",
@@ -1127,23 +1196,6 @@
 				],
 				"row": 2,
 				"column": 6
-			},
-			{
-				"name": "Third Alternative",
-				"uniques": [
-					"[+5 Food, +5 Science] [in capital]",
-					"[+100]% [Horses] resource production",
-					"[+100]% [Iron] resource production",
-					"[+100]% [Coal] resource production",
-					"[+100]% [Oil] resource production",
-					"[+100]% [Aluminum] resource production",
-					"[+100]% [Uranium] resource production",
-					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
-					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
-				],
-				"row": 2,
-				"column": 10
 			},
 			{
 				"name": "Total War",
@@ -1273,16 +1325,6 @@
 				"column": 7
 			},
 			{
-				"name": "Double Agents",
-				"uniques": [
-					// TODO: Spies have double the chance to capture an enemy spy attempting to steal a technology.
-					"[-50]% enemy spy effectiveness [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 9
-			},
-			{
 				"name": "Young Pioneers",
 				"uniques": [
 					"[+1 Happiness] from all [Workshop] buildings",
@@ -1329,19 +1371,6 @@
 				],
 				"row": 2,
 				"column": 10
-			},
-			{
-				"name": "Five-Year Plan",
-				"uniques": [
-					"[+2 Production] [in your cities]",
-					"[+1 Production] from [Mine] tiles [in your cities]",
-					"[+1 Production] from [Quarry] tiles [in your cities]",
-					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
-					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
-				],
-				"row": 2,
-				"column": 12
 			},
 
 			// Level 3
@@ -1452,16 +1481,6 @@
 				],
 				"row": 1,
 				"column": 5
-			},
-			{
-				"name": "Covert Action",
-				"uniques": [
-					// Spies have double the chance to successfully rig City-State elections
-					"[+100]% spy effectiveness [in City-State cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
-				],
-				"row": 1,
-				"column": 7
 			},
 			{
 				"name": "Economic Union",
