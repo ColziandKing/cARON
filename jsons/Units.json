@@ -62,6 +62,7 @@
 			"Unbuildable",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Can move immediately once bought",
+			"Can be purchased with [Gold] [in all cities]",
 			"Only available <after adopting [Mercenary Army]>"
 		],
 		"promotions": [
@@ -99,6 +100,7 @@
 			"Unbuildable",
 			"[+30]% Strength <when attacking>",
 			"Can move immediately once bought",
+			"Can be purchased with [Gold] [in all cities]",
 			"Only available <after adopting [Mercenary Army]>"
 			// "Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
 		],
@@ -123,6 +125,7 @@
 		"uniques":["May enter foreign tiles without open borders","[+15]% Strength <when fighting in [Ocean] tiles>",
 			"Unbuildable",
 			"Can move immediately once bought",
+			"Can be purchased with [Gold] [in all cities]",
 			"Only available <after adopting [Mercenary Army]>"]
 		"promotions": ["Coastal Raider I","Boarding Party I","[Privateer] ability"],
 		"attackSound": "cannon"
