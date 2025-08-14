@@ -1,0 +1,38 @@
+[
+  {
+	"name": "Benito Juárez",
+	"preferredVictoryType": "Diplomatic",
+	"production": 7,
+	"food": 3,
+	"gold": 9,
+	"science": 6,
+	"culture": 2,
+	"happiness": 10,
+	"faith": 4,
+	"military": 1,
+	"aggressive": 8,
+	"declareWar": 5,
+	"commerce": 2,
+	"diplomacy": 10,
+	"loyal": 6,
+	"expansion": 7
+},
+  {
+	"name": "Baldwin IV",
+	"preferredVictoryType": "Diplomatic",
+	"production": 2,
+	"food": 9,
+	"gold": 6,
+	"science": 1,
+	"culture": 10,
+	"happiness": 4,
+	"faith": 7,
+	"military": 3,
+	"aggressive": 8,
+	"declareWar": 5,
+	"commerce": 1,
+	"diplomacy": 10,
+	"loyal": 6,
+	"expansion": 9
+},
+]
