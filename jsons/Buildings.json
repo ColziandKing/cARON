@@ -1,5 +1,40 @@
 
-[ 
+[ 	{
+		"name": "Bahay Kubo",
+		"uniqueTo": "The Philippines",
+		"replaces": "Granary",
+		"food": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Food] from [Lakes] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+{
+		"name": "Templum Domini",
+		"cost": 125,
+                "uniqueTo": "Jerusalem",
+		"replaces": "Grand Temple",
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>","[+10]% Golden Age length","Free [Inquisitor] appears"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+{
+		"name": "Puerto de la Secretaria",
+                "uniqueTo": "Mexico",
+		"replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+25]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
+	},
+
     {
         "name": "Art Hall",
         "culture": 2,
