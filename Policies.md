@@ -1,5 +1,5 @@
 https://images.app.goo.gl/WA58j384DUJzqtwb6
-
+https://www.scribd.com/document/773450403/Jordan-Webster-The-Lottery-Plot-Diagram
 [
 	
 	//Expansion 
