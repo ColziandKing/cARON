@@ -19,7 +19,7 @@
 },
   {
 	"name": "Baldwin IV",
-	"preferredVictoryType": "Diplomatic",
+	"preferredVictoryType": "Domination",
 	"production": 2,
 	"food": 9,
 	"gold": 6,
