@@ -1,0 +1,14 @@
+{
+  "name": "Global uniques",
+  "uniques":
+  [
+			"Adopt [Tradition] <upon entering the [Ancient era]> <hidden from users>",
+			"Adopt [Liberty] <upon entering the [Ancient era]> <hidden from users>",
+			"Adopt [Honor] <upon entering the [Ancient era]> <hidden from users>",
+			"Adopt [Piety] <upon entering the [Ancient era]> <hidden from users>",
+			"Adopt [Aesthetics] <upon entering the [Classical era]> <hidden from users>",
+			"Adopt [Patronage] <upon entering the [Classical era]> <hidden from users>",
+			"Adopt [Commerce] <upon entering the [Medieval era]> <hidden from users>",
+			"Adopt [Exploration] <upon entering the [Medieval era]> <hidden from users>",
+]
+}
