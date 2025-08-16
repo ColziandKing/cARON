@@ -34,7 +34,7 @@
 					"[-100]% weight to this choice for AI decisions"
 				],
 				"row": 1,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Legalism",
@@ -45,7 +45,7 @@
 					"Oligarchy"
 				],
 				"row": 2,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Landed Elite",
@@ -57,7 +57,7 @@
 					"Legalism"
 				],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Party Leadership",
@@ -68,7 +68,7 @@
 					"Legalism"
 				],
 				"row": 3,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Monarchy",
@@ -79,7 +79,7 @@
 					"Legalism"
 				],
 				"row": 3,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Tradition Complete",
@@ -124,7 +124,7 @@
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Collective Rule",
@@ -144,7 +144,7 @@
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Meritocracy",
@@ -155,7 +155,7 @@
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
-                "column": 6
+                "column": 7
             },
 			// Level 1
 			{
@@ -167,7 +167,7 @@
 					"Representation"
 				],
 				"row": 3,
-				"column": 4
+				"column": 5
 			},
             {
                 "name": "Liberty Complete",
@@ -210,7 +210,7 @@
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
-                "column": 6
+                "column": 7
             },
             {
                 "name": "Military Tradition",
@@ -229,7 +229,7 @@
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
-                "column": 6
+                "column": 7
             },
 			{
 				"name": "Nationalism",
@@ -251,7 +251,7 @@
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
-                "column": 6
+                "column": 7
             },
             {
                 "name": "Honor Complete",
@@ -496,7 +496,7 @@
 					"[Great Scientist] is earned [25]% faster"
 				],
 				"row": 1,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Free Thought",
@@ -508,7 +508,7 @@
 					"Humanism"
 				],
 				"row": 2,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Sovereignty",
@@ -544,7 +544,7 @@
 					"Free Thought"
 				],
 				"row": 3,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Rationalism Complete",
