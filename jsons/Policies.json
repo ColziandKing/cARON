@@ -202,7 +202,7 @@
                     "Free [Great General] appears"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Discipline",
@@ -210,7 +210,7 @@
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
-                "column": 7
+                "column": 6
             },
             {
                 "name": "Military Tradition",
@@ -298,7 +298,7 @@
 					"[Faith] cost of purchasing items in cities [-20]%" // TODO: Make this not applicable to Great People
 				],
 				"row": 1,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Theocracy",
@@ -359,7 +359,7 @@
 					"Mandate Of Heaven"
 				],
                 "row": 2,
-                "column": 6
+                "column": 7
             },
 			{
 				"name": "Piety Complete",
@@ -420,7 +420,7 @@
 					"Consulates"
 				],
 				"row": 2,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Cultural Diplomacy",
@@ -440,7 +440,7 @@
 					"Resting point for Influence with City-States is increased by [20]"
 				],
 				"row": 1,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Merchant Confederacy", // Was Educated Elite
@@ -451,7 +451,7 @@
 					"[+2 Gold] from each Trade Route <in [in City-State cities] cities>"
 				],
 				"row": 3,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Patronage Complete",
@@ -487,7 +487,7 @@
 					"[+2 Science] from every specialist [in all cities]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Humanism",
@@ -496,7 +496,7 @@
 					"[Great Scientist] is earned [25]% faster"
 				],
 				"row": 1,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Free Thought",
@@ -508,7 +508,7 @@
 					"Humanism"
 				],
 				"row": 2,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Sovereignty",
@@ -519,7 +519,7 @@
 					"Secularism"
 				],
 				"row": 2,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Scientific Revolution",
@@ -693,7 +693,7 @@
 					"Comment [May buy [Foreign Legion] units with [Gold] [in your cities]]"
 				],
 				"row": 1,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Mercantilism",
@@ -708,7 +708,7 @@
 					"Mercenary Army"
 				],
 				"row": 2,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Capitalism",
@@ -735,7 +735,7 @@
 					"Mercantilism"
 				],
 				"row": 3,
-				"column": 6
+				"column": 7
 			},
 			{
 				"name": "Entrepreneurship",
