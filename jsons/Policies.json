@@ -397,7 +397,7 @@
 					"Gifts of Gold to City-States generate [25]% more Influence"
 				],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Scholasticism",
@@ -408,7 +408,7 @@
 					"Philantropy"
 				],
 				"row": 2,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Treaty Organization",
@@ -420,7 +420,7 @@
 					"Consulates"
 				],
 				"row": 2,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Cultural Diplomacy",
@@ -432,7 +432,7 @@
 					"Scholasticism"
 				],
 				"row": 3,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Consulates",
@@ -440,7 +440,7 @@
 					"Resting point for Influence with City-States is increased by [20]"
 				],
 				"row": 1,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Merchant Confederacy", // Was Educated Elite
@@ -451,7 +451,7 @@
 					"[+2 Gold] from each Trade Route <in [in City-State cities] cities>"
 				],
 				"row": 3,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Patronage Complete",
@@ -683,7 +683,7 @@
 					"[-50]% maintenance on road & railroads"
 				],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Mercenary Army",
@@ -693,7 +693,7 @@
 					"Comment [May buy [Foreign Legion] units with [Gold] [in your cities]]"
 				],
 				"row": 1,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Mercantilism",
@@ -708,7 +708,7 @@
 					"Mercenary Army"
 				],
 				"row": 2,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Capitalism",
@@ -723,7 +723,7 @@
 					"Mercantilism"
 				],
 				"row": 3,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Protectionism",
@@ -735,7 +735,7 @@
 					"Mercantilism"
 				],
 				"row": 3,
-				"column": 4
+				"column": 6
 			},
 			{
 				"name": "Entrepreneurship",
@@ -744,7 +744,7 @@
 					"[Great Merchant] is earned [+25]% faster"
 				],
 				"row": 2,
-				"column": 2,
+				"column": 1,
 				"requires": [
 					"Wagon Trains"
 				]
