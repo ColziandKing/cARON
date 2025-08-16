@@ -124,7 +124,7 @@
                     "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Collective Rule",
@@ -144,7 +144,7 @@
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Meritocracy",
@@ -155,7 +155,7 @@
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,
-                "column": 5
+                "column": 6
             },
 			// Level 1
 			{
@@ -167,7 +167,7 @@
 					"Representation"
 				],
 				"row": 3,
-				"column": 3
+				"column": 4
 			},
             {
                 "name": "Liberty Complete",
@@ -202,7 +202,7 @@
                     "Free [Great General] appears"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Discipline",
@@ -210,7 +210,7 @@
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
-                "column": 4
+                "column": 6
             },
             {
                 "name": "Military Tradition",
@@ -220,7 +220,7 @@
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Military Caste",
@@ -229,7 +229,7 @@
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
-                "column": 4
+                "column": 6
             },
 			{
 				"name": "Nationalism",
@@ -238,7 +238,7 @@
 				],
                 "requires": ["Military Tradition"],
 				"row": 3,
-				"column": 2
+				"column": 1
 			},
             {
                 "name": "Professional Army",
@@ -251,7 +251,7 @@
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,
-                "column": 4
+                "column": 6
             },
             {
                 "name": "Honor Complete",
@@ -298,7 +298,7 @@
 					"[Faith] cost of purchasing items in cities [-20]%" // TODO: Make this not applicable to Great People
 				],
 				"row": 1,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Theocracy",
@@ -359,7 +359,7 @@
 					"Mandate Of Heaven"
 				],
                 "row": 2,
-                "column": 5
+                "column": 6
             },
 			{
 				"name": "Piety Complete",
