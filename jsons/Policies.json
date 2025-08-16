@@ -496,7 +496,7 @@
 					"[Great Scientist] is earned [25]% faster"
 				],
 				"row": 1,
-				"column": 7
+				"column": 6
 			},
 			{
 				"name": "Free Thought",
@@ -508,7 +508,7 @@
 					"Humanism"
 				],
 				"row": 2,
-				"column": 7
+				"column": 6
 			},
 			{
 				"name": "Sovereignty",
@@ -544,7 +544,7 @@
 					"Free Thought"
 				],
 				"row": 3,
-				"column": 6
+				"column": 5
 			},
 			{
 				"name": "Rationalism Complete",
