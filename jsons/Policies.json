@@ -1451,7 +1451,7 @@
 				"name": "Covert Action",
 				"uniques": [
 					// Spies have double the chance to successfully rig City-State elections
-					"[+100]% spy effectiveness [in City-State cities]",,
+					"[+100]% spy effectiveness [in City-State cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
