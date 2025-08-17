@@ -185,7 +185,8 @@
 				"link": "Policy/Volunteer Army"
 			}
 		]
-	},	{
+	},	
+	{
 		"name": "Corsair",
 		"unitType": "Melee Water",
 		"movement": 5,
@@ -200,6 +201,36 @@
 			"Only available <after adopting [Mercenary Army]>"]
 		"promotions": ["Coastal Raider I","Boarding Party I","[Privateer] ability"],
 		"attackSound": "cannon"
+	},
+	{
+		"name": "Sao",
+		"uniqueTo": "Yuan",
+		"replaces": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 80,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["[+15]% Strength bonus for [Sao] units within [2] tiles","Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Paladin",
+                "uniqueTo": "The Franks",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["[+20]% Strength <during a Golden Age>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
 	},
 
 
