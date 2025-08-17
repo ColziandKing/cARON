@@ -624,7 +624,8 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
-					"[+2 Gold] from each Trade Route" // TODO: +4 Gold from all your Sea Trade Routes
+					"[+2 Gold] from each Trade Route", // TODO: +4 Gold from all your Sea Trade Routes
+					"Gain [200]-[300] [Gold] <hidden from users>"
 				],
 				"requires": [
 					"Merchant Navy"
