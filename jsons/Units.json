@@ -1,4 +1,16 @@
-[	{
+[	
+	{
+		"name": "Skirmisher",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 14,
+		"range": 1,
+		"cost": 64,
+		"uniques": ["Blast radius [1]","Nuclear weapon of Strength [1]", ],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Knights Templar",
 		"uniqueTo": "Jerusalem",
 		"replaces": "Pikeman",
