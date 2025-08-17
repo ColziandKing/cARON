@@ -7,8 +7,8 @@
 		"rangedStrength": 14,
 		"range": 1,
 		"cost": 64,
-		"uniques": ["Blast radius [1]","Nuclear weapon of Strength [1]", ],
-		"attackSound": "arrow"
+		"uniques": ["Blast radius [1]","Nuclear weapon of Strength [1]"],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Knights Templar",
