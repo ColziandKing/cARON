@@ -235,7 +235,22 @@
 			"Can be purchased with [Gold] [in all cities]",
 			"Only available <after adopting [Mercenary Army]>","Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+	},	
+	{
+		"name": "Nifo'oti",
+		"uniqueTo": "Samoa",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+20]% Strength <vs [Wounded] units>","Double movement in [Coastal tiles]","[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
 	},
+
 
 
 ]
