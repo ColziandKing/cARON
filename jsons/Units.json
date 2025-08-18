@@ -204,7 +204,6 @@
 	},
 	{
 		"name": "Sao",
-		"replaces": "Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 16,
@@ -222,7 +221,6 @@
 	},
 {
 		"name": "Paladin",
-		"replaces": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 25,
