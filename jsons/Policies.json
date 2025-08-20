@@ -20,7 +20,7 @@
 			{
 				"name": "Aristocracy",
 				"uniques": [
-					"[+15]% Production when constructing [All] wonders [in all cities]",
+					"[+20]% Production when constructing [All] wonders [in all cities]",
 					"[+1 Happiness] per [10] population [in all cities]"
 				],
 				"row": 1,
@@ -129,7 +129,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "[+50]% Production when constructing [Civilian] units [in capital]",
                     "Free [Settler] appears"
                 ],
                 "requires": ["Republic"],
@@ -139,7 +139,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Each city founded increases culture cost of policies [44]% less than normal",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -342,7 +342,7 @@
 				"name": "Religious Tolerance",
 				"uniques": [
 					// TODO: Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion
-					"[-10]% Culture cost of adopting new Policies"
+					"[-15]% Culture cost of adopting new Policies"
 				],
 				"requires": [
 					"Organized Religion"
