@@ -411,9 +411,9 @@
 				"column": 1
 			},
 			{
-				"name": "Treaty Organization",
+				"name": "Diplomatic Missions",
 				"uniques": [
-					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
+                "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Medieval era]>",
 				],
 				"requires": [
 					"Philantropy",
@@ -1366,9 +1366,9 @@
 				"column": 5
 			},
         {
-            "name": "Diplomatic Missions",
+            "name": "Treaty Organization",
             "uniques": [
-                "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Medieval era]>",
+					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 	],
             "row": 1,
