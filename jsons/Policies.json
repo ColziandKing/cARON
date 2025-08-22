@@ -316,7 +316,8 @@
 			{
 				"name": "Reformation",
 				"uniques": [
-					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
 				],
 				"requires": [
