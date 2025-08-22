@@ -1,5 +1,12 @@
+https://www.pinterest.com/pin/rachel-wilson-tawog-by-graphicdann-on-deviantart--702280135651267099/
 https://images.app.goo.gl/WA58j384DUJzqtwb6
 https://www.scribd.com/document/773450403/Jordan-Webster-The-Lottery-Plot-Diagram
+https://gatodelfuturo.tumblr.com/image/157494368401
+<img width="626" height="313" alt="image" src="https://github.com/user-attachments/assets/eeda8235-cd82-4c2b-98b0-eedef01d2591" />
+<img width="889" height="872" alt="image" src="https://github.com/user-attachments/assets/81321297-b36b-4e67-9b37-6dc7ee924c79" />
+<img width="893" height="872" alt="image" src="https://github.com/user-attachments/assets/6f86155e-b9c3-4bb6-9576-85b002048589" />
+<img width="889" height="862" alt="image" src="https://github.com/user-attachments/assets/ffb1d5c2-960e-47e4-b50a-2316cfba9ac7" />
+<img width="1889" height="876" alt="image" src="https://github.com/user-attachments/assets/a449d443-bce8-4d87-b71c-bb16aba05f36" />
 [
 	
 	//Expansion 
