@@ -140,7 +140,7 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "[+50]% Production when constructing [Civilian] units [in capital]",
-                    "Free [Settler] appears"
+                    "[2] free [Settler] units appear",
                 ],
                 "requires": ["Republic"],
                 "row": 2,
@@ -722,6 +722,7 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
+                    "[3] free [Cargo Ship] units appear",
 					"[+2 Gold] from each Trade Route", // TODO: +4 Gold from all your Sea Trade Routes
 					"Gain [200]-[300] [Gold] <hidden from users>"
 				],
@@ -779,6 +780,7 @@
 			{
 				"name": "Wagon Trains",
 				"uniques": [
+                    "[2] free [Caravan] units appear",
 					"[-50]% maintenance on road & railroads",
                     "[+50]% Production when constructing [Market] buildings [in all cities]",
                     "[+50]% Production when constructing [Bank] buildings [in all cities]",
