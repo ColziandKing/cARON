@@ -1742,7 +1742,7 @@
 			{
 				"name": "Avant Garde",
 				"uniques": [
-					"[+25]% Great Person generation [in your cities]",
+					"[+50]% Great Person generation [in your cities]",
 			"Comment [Unique policy to Byzantine civilization]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
 				],
