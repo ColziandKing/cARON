@@ -1,5 +1,330 @@
 
 [ 	
+
+	{
+
+		"name": "Reichskommissariat Verwaltung",
+
+		"replaces": "Courthouse",
+
+		"uniqueTo": "Reichskommissariate des Ostens",
+
+		"maintenance": 0,
+
+		"hurryCostModifier": 50,
+
+		"uniques": ["Removes extra unhappiness from annexed cities",
+
+			"Can only be built <in [Annexed] cities>",
+
+			"[+2 Gold] per [1] population [in this city]",
+
+			"[+1 Production] per [1] population [in this city]"
+
+			"[-50]% [Culture] [in this city]"
+
+			"[-50]% [Science] [in this city]"
+
+			"[-50]% growth [in this city]"],
+
+		"requiredTech": "Mathematics"
+
+	},
+
+
+
+	{
+
+		"name": "Assembly Plant",
+
+		"replaces": "Factory",
+
+		"uniqueTo": "America",
+
+		"cost": 360,
+
+		"production": 5,
+
+		"percentStatBonus": {"production": 10},
+
+		"specialistSlots": {"Engineer": 2},
+
+		"requiredBuilding": "Workshop",
+
+		"maintenance": 3,
+
+		"hurryCostModifier": 0,
+
+		"requiredResource": "Coal",
+
+		"requiredTech": "Industrialization"
+
+		"uniques": ["[+20]% Production when constructing [Armored] units [in this city]",
+
+		"[+20]% Production when constructing [Siege] units [in this city]",
+
+		"[+20]% Production when constructing [Air] units [in this city]",]
+
+	},
+
+	
+
+	{
+
+		"name": "Naval Dockyard",
+
+		"replaces": "Seaport",
+
+		"uniqueTo": "England",
+		
+		"hurryCostModifier": 25,
+
+		"production": 1,
+
+		"maintenance": 3,
+
+		"requiredBuilding": "Harbor",
+
+		"uniques": ["Must be next to [Coast]", 
+
+		"[+33]% Production when constructing [Water] units [in this city]",
+
+		"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]"],
+
+		"requiredTech": "Navigation"
+
+	},
+
+	
+
+	{
+
+		"name": "Cafe",
+
+		"replaces": "Broadcast Tower",
+
+		"uniqueTo": "France",
+
+		"culture": 3,
+
+		"food": 2,
+
+		"percentStatBonus": {"culture": 33},
+
+		"requiredBuilding": "Museum",
+
+		"requiredTech": "Radio",
+
+		"uniques": ["[+2 Gold, +2 Culture] from every [Wonder] <in this city>"
+
+		"Destroyed when the city is captured"] //Tourism related uniques in BNW
+
+	},
+
+	
+
+	{
+
+		"name": "Centrum Wyszkolenia",
+
+		"replaces": "Military Academy",
+
+		"uniqueTo": "Poland",
+
+		"hurryCostModifier": 0,
+
+		"maintenance": 1,
+
+		"requiredBuilding": "Armory",
+
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+
+		"New [Gunpowder] units start with [15] XP [in this city]"		
+
+		"[+2 Culture, +2 Production] [in this city] <with a garrison>",
+
+		"Destroyed when the city is captured"],
+
+		"requiredTech": "Military Science"
+
+	},
+
+	
+
+	{
+
+		"name": "Casa del Pueblo",
+
+		"replaces": "Library"
+
+		"uniqueTo": "Spanish Republic",
+
+		"hurryCostModifier": 25,
+
+		"maintenance": 1,
+
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+
+		"[+25]% Great Person generation [in this city]",
+
+		"[+50]% Yield from every [Great Improvement] <in this city>"],
+
+		"requiredTech": "Writing"
+
+	},
+
+	
+
+	{
+
+		"name": "Škoda Works",
+
+		"replaces": "Factory",
+
+		"uniqueTo": "Czechoslovakia",
+
+		"cost": 360,
+
+		"production": 4,
+
+		"percentStatBonus": {"production": 10},
+
+		"specialistSlots": {"Engineer": 1},
+
+		"requiredBuilding": "Workshop",
+
+		"maintenance": 3,
+
+		"hurryCostModifier": 0,
+
+		"requiredTech": "Industrialization"
+
+		"uniques": ["Comment [Coal not required]",
+
+		"[+2 Production, +1 Gold] from [Iron] tiles [in this city]",		
+
+		"[+2 Production, +1 Gold] from [Coal] tiles [in this city]",
+
+		"[+2 Production, +1 Gold] from [Aluminum] tiles [in this city]",
+
+		"[+2 Production, +1 Gold] from [Oil] tiles [in this city]"]
+
+	},
+
+	
+
+	{
+
+		"name": "Swiss Bank",
+
+		"replaces": "Bank",
+
+		"uniqueTo": "Switzerland",
+
+		"gold": 4,
+
+		"culture": 2,
+
+		"specialistSlots": {"Merchant": 1},
+
+		"hurryCostModifier": 15,
+
+		"percentStatBonus": {"gold": 25},
+
+		"requiredBuilding": "Market",
+
+		"requiredTech": "Banking"
+
+	},
+
+	
+
+	{
+
+		"name": "Liman",
+
+		"replaces": "Harbor",
+
+		"uniqueTo": "Turkey"
+
+		"cost": 120,
+
+		"maintenance": 2,
+
+		"hurryCostModifier": 25,
+
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+
+		"[+2 Gold] from [Strategic resource] tiles [in this city]",
+
+		"[+2 Gold] <in cities connected to the capital>"
+
+		"Connects trade routes over water",
+
+		"Must be next to [Coast]"],
+
+		"requiredTech": "Compass"
+
+	},
+
+	
+
+	//Substitute Buildings
+
+	{
+
+		"name": "Frontier Outpost",
+
+		"replaces": "Armory",
+
+		"uniqueTo": "America",
+
+		"hurryCostModifier": 25,
+
+		"maintenance": 1,
+
+		"requiredBuilding": "Barracks",
+
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[+25]% Production when constructing [Settler] units [in this city]",
+
+			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+
+		"requiredTech": "Steel"
+
+	},
+
+	
+
+	{
+
+		"name": "Dojo",
+
+		"replaces": "Armory",
+
+		"uniqueTo": "Japan",
+
+		"cost": "160",
+
+		"hurryCostModifier": 25,
+
+		"culture": 1
+
+		"maintenance": 1,
+
+		"requiredBuilding": "Barracks",
+
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+
+		"All newly-trained [Melee] units [in this city] receive the [Drill I] promotion",
+
+		"All newly-trained [Gunpowder] units [in this city] receive the [Drill I] promotion"
+
+		"Destroyed when the city is captured"],
+
+		"requiredTech": "Metal Casting"
+
+	},
+
 	{
 		"name": "Harbor",
 		"cost": 120,
