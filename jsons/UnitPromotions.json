@@ -1,4 +1,105 @@
 [
+
+	{
+
+		"name": "[Supermarine Spitfire] ability",
+
+		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+
+	},
+
+
+
+	{
+
+		"name": "[SS Panzergrenadiers] ability",
+
+		"uniques": ["[+20]% Strength <when fighting in [Enemy] tiles>", "No movement cost to pillage"]
+
+	},
+
+
+
+	
+
+	{
+
+		"name": "[Alpini] ability",
+
+		"uniques": ["[+15]% Strength <when fighting in [Hill] tiles>",
+
+		"Double movement in [Hill]",
+
+		"Can pass through impassable tiles"]
+
+	},
+
+
+
+	{
+
+		"name": "Kamikaze!",
+
+		"prerequisites": ["[Zero] ability"],
+
+		"unitTypes": ["Fighter"],
+
+		"uniques": ["[+150]% Strength <vs [Water] units>",
+
+		"[+100]% Strength <vs [Armored] units>",
+
+		"Self-destructs when attacking"]
+
+	},
+
+	
+
+	{
+
+		"name": "[Black Brigade Infantry] ability",
+
+		"uniques": ["[+15]% Strength <when adjacent to a [Armored] unit>",
+
+		"[+10]% Strength bonus for [Armored] units within [2] tiles"]
+
+	},
+
+	
+
+	{
+
+		"name": "[Turan] ability",
+
+		"uniques": ["[+15]% Strength <when adjacent to a [Turan] unit>"]
+
+	},
+
+	
+
+	{
+
+		"name": "[Landwehr] ability",
+
+		"uniques": ["[-20]% Strength <when attacking>",
+
+		"[+20]% Strength <when defending>",
+
+		"[+15]% Strength <when fighting in [Fort] tiles>"]
+
+	},
+
+
+
+//Substitute promotions
+
+	{
+
+		"name": "Commerce Raider",
+
+		"uniques": ["No movement cost to pillage","May heal outside of friendly territory"],
+
+	},
+    
     {
         "name": "Foreign Land Bonus", //only for Pracinha and Crusader and subsequent upgrades
         "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
