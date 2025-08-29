@@ -448,7 +448,7 @@
 	// Patronage
 	{
 		"name": "Patronage",
-		"era": "Classical era", // Medieval in Vanilla
+		"era": "Future era", // Medieval in Vanilla
 		"priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -540,7 +540,7 @@
 	// Rationalism
 	{
 		"name": "Rationalism",
-		"era": "Renaissance era",
+		"era": "Future era",
 		"priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -655,7 +655,7 @@
 			"[+1] Sight <for [{Military} {Water}] units>",
 		 "Adopt [Maritime Infrastructure]", 
 		],
-		"era": "Medieval era",
+		"era": "Future era",
 		"priorities": {
 			"Neutral": 0,
 			"Cultural": 0,
@@ -874,7 +874,7 @@
 	// Aesthetics
 	{
 		"name": "Aesthetics",
-		"era": "Classical era",
+		"era": "Future  era",
 		"uniques": [
 			"[Great Artist] is earned [25]% faster",
 			"[Great Musician] is earned [25]% faster",
