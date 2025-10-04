@@ -187,22 +187,6 @@
 		]
 	},	
 	{
-		"name": "Corsair",
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"uniques":["May enter foreign tiles without open borders","[+15]% Strength <when fighting in [Ocean] tiles>",
-			"Unbuildable",
-			"Can move immediately once bought",
-			"Can be purchased with [Gold] [in all cities]",
-			"Only available <after adopting [Mercenary Army]>"]
-		"promotions": ["Coastal Raider I","Boarding Party I","[Privateer] ability"],
-		"attackSound": "cannon"
-	},
-	{
 		"name": "Nifo'oti",
 		"uniqueTo": "Samoa",
 		"replaces": "Spearman",
